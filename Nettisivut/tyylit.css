@@ -57,6 +57,7 @@ nav a:hover {
 #valittu {
     color: #4c5761;
     background-color: #FFFFf0;
+    border: 2xp solid #4c5761;
 }
 
 /* palvelut-sivun asettelu*/
