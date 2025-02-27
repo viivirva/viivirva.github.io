@@ -11,3 +11,54 @@ header {
     text-align: center;
     padding-top: 30px;
 }
+
+.alisivu-sisalto {
+    background-color: rgb(255, 248, 239);
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+/*fontit*/
+@font-face {
+    font-family: otsikko;
+    src: url(fontti/FredokaOne-Regular.ttf);
+}
+
+h1 {
+    font-family: otsikko, "verdana";
+    font-size: 35px;
+    color: #FFFFf0;
+    text-shadow: 4px 4px #4c5761;
+    text-align: center;
+    padding-top: 30px;
+}
+
+h2,
+h3 {
+    font-family: otsikko, "verdana";
+}
+
+.esittely {
+    padding-left: 20px;
+}
+
+/*päävalikko*/
+nav a {
+    background: #4c5761;
+    font-family: otsikko, "tahoma";
+    color: #FFFFf0;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #4c5761;
+}
+
+nav a:hover {
+    color: #4c5761;
+    background-color: #FFFFf0;
+}
+
+#valittu {
+    color: #4c5761;
+    background-color: #FFFFf0;
+}
