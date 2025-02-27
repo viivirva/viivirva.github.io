@@ -60,3 +60,12 @@ nav a:hover {
 }
 
 /* palvelut-sivun asettelu*/
+#hinnasto {
+    margin: 3% 10% 3% 10%;
+    /* flex-direction: column;*/
+    background-color: #ffefd5;
+    /*display: flex;*/
+    justify-content: space-around;
+    padding: 0px;
+
+    /*footer, joka sivulla sama*/
