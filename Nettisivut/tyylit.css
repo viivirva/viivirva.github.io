@@ -26,6 +26,7 @@ h1 {
     text-shadow: 4px 4px #4c5761;
     text-align: center;
     padding-top: 30px;
+
 }
 
 h2,
@@ -68,3 +69,7 @@ nav a:hover {
 
 
 /*footer, joka sivulla sama*/
+/* Etusivun asettelu*/
+#slogan {
+    margin: 3% 10% 3% 10%
+}
