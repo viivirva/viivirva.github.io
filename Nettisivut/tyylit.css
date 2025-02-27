@@ -12,12 +12,6 @@ header {
     padding-top: 30px;
 }
 
-.alisivu-sisalto {
-    background-color: rgb(255, 248, 239);
-    display: flex;
-    justify-content: space-around;
-    padding: 0px;
-}
 
 /*fontit*/
 @font-face {
@@ -47,6 +41,7 @@ h3 {
 nav a {
     background: #8fbc8f;
     font-family: otsikko, "tahoma";
+    padding: 1px 23px;
     color: #4c5761;
     text-decoration: none;
     display: inline-block;
