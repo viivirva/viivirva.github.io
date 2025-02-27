@@ -51,22 +51,20 @@ nav a {
 nav a:hover {
     color: #4c5761;
     background-color: #FFFFf0;
-    border: 2xp solid #4c5761;
+    border: 2px solid #4c5761;
 }
 
 #valittu {
     color: #4c5761;
     background-color: #FFFFf0;
-    border: 2xp solid #4c5761;
+    border: 2px solid #4c5761;
 }
 
 /* palvelut-sivun asettelu*/
 #hinnasto {
     margin: 3% 10% 3% 10%;
     /* flex-direction: column;*/
-    background-color: #ffefd5;
-    /*display: flex;*/
-    justify-content: space-around;
-    padding: 0px;
+}
 
-    /*footer, joka sivulla sama*/
+
+/*footer, joka sivulla sama*/
