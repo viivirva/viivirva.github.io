@@ -64,10 +64,10 @@ nav a:hover {
 }
 
 /* palvelut-sivun asettelu*/
+#hinnasto {
+    margin: 3% 10% 3% 10%;
+    /* flex-direction: column;*/
+}
 
 
-
-
-<footer><div><a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></div><div><p>Copyright &copy;
-2025,
-Tmi Viivi Irva </p></div></footer>
+/*footer, joka sivulla sama*/
