@@ -45,20 +45,22 @@ h3 {
 
 /*päävalikko*/
 nav a {
-    background: #4c5761;
+    background: #8fbc8f;
     font-family: otsikko, "tahoma";
-    color: #FFFFf0;
+    color: #4c5761;
     text-decoration: none;
     display: inline-block;
-    border: 2px solid #4c5761;
+
 }
 
 nav a:hover {
     color: #4c5761;
     background-color: #FFFFf0;
+    border: 2xp solid #4c5761;
 }
 
 #valittu {
     color: #4c5761;
     background-color: #FFFFf0;
+    border: 2px solid #4c5761;
 }
