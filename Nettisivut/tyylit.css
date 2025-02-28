@@ -79,6 +79,32 @@ nav a:hover {
     cursor: pointer;
 }
 
+figure {
+    position: relative;
+    /* Tämä mahdollistaa tekstin sijoittamisen suhteessa kuvaan */
+    border: 1px #4c5761 solid;
+    margin-bottom: 20px;
+    max-width: 200px;
+    float: left;
+    /* Siirtää koko figure-elementin vasemmalle */
+}
+
+figcaption {
+    position: absolute;
+    top: 102%;
+    left: 15%;
+    transform: translate(-25%, -5%);
+    color: #FFFFf0;
+    font-size: 12px;
+    font-family: kuvateksti, tahoma;
+}
+
+.kuva {
+    max-width: 200px;
+    width: 100%;
+    float: left;
+}
+
 /* palvelut-sivun asettelu*/
 #hinnasto {
     margin: 3% 10% 3% 10%;
