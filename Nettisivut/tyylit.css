@@ -1,7 +1,8 @@
+/* Yhteiset tyylit*/
 body {
     color: #4c5761;
     background-color: #8fbc8f;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     font-size: 16px;
     margin: 0;
     /*selain luo automaattisesti pienen marginaalin*/
@@ -11,6 +12,7 @@ header {
     text-align: center;
     padding-top: 30px;
 }
+
 
 
 /*fontit*/
@@ -29,6 +31,7 @@ h1 {
 
 }
 
+
 h2,
 h3 {
     font-family: otsikko, "verdana";
@@ -39,6 +42,17 @@ h3 {
 }
 
 /*päävalikko*/
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: #8fbc8f;
+    text-align: center;
+    padding: 10px;
+}
+
 nav a {
     background: #8fbc8f;
     font-family: otsikko, "tahoma";
@@ -78,6 +92,142 @@ nav a:hover {
     margin: 4px 2px;
     cursor: pointer;
 }
+
+body {
+    color: #4c5761;
+    background-color: #ffefd5;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    /*selain luo automaattisesti pienen marginaalin*/
+}
+
+header {
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+
+/*fontit*/
+@font-face {
+    font-family: otsikko;
+    src: url(fontti/FredokaOne-Regular.ttf);
+}
+
+h1 {
+    font-family: otsikko, "verdana";
+    font-size: 35px;
+    color: #FFFFf0;
+    text-shadow: 4px 4px #4c5761;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+
+h2,
+h3 {
+    font-family: otsikko, "verdana";
+}
+
+.esittely {
+    padding-left: 20px;
+}
+
+/*päävalikko*/
+nav a {
+    background: #8fbc8f;
+    font-family: otsikko, "tahoma";
+    padding: 1px 30px;
+    color: #4c5761;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+
+
+}
+
+
+nav a:hover {
+    color: #4c5761;
+    background-color: #FFFFf0;
+    border: 2px solid #4c5761;
+    border-radius: 10px;
+}
+
+#valittu {
+    color: #4c5761;
+    background-color: #FFFFf0;
+    border: 2px solid #4c5761;
+    border-radius: 10px;
+}
+
+.toimintakehote {
+    border: 2px solid #4c5761;
+    border-radius: 10px;
+    background-color: #FFFFf0;
+    font-family: otsikko, "tahoma";
+    color: #4c5761;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#etusivu {
+    position: relative;
+    background-image: url("kuvat/hierontapoyta.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+
+
+
+figure {
+    position: relative;
+    /* Tämä mahdollistaa tekstin sijoittamisen suhteessa kuvaan */
+    border: 1px #4c5761 solid;
+    margin-bottom: 20px;
+    max-width: 200px;
+    float: left;
+    /* Siirtää koko figure-elementin vasemmalle */
+}
+
+figcaption {
+    position: absolute;
+    top: 102%;
+    left: 15%;
+    transform: translate(-25%, -5%);
+    color: #FFFFf0;
+    font-size: 12px;
+    font-family: kuvateksti, tahoma;
+}
+
+.kuva {
+    max-width: 200px;
+    width: 100%;
+    float: left;
+}
+
+/* palvelut-sivun asettelu*/
+#hinnasto {
+    margin: 3% 10% 3% 10%;
+    /* flex-direction: column;*/
+}
+
+
+/*footer, joka sivulla sama*/
+/* Etusivun asettelu*/
+#slogan {
+    margin: 3% 10% 3% 10%
+}
+
+
 
 figure {
     position: relative;
