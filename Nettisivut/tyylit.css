@@ -192,6 +192,29 @@ footer .social-media a:hover {
     margin: 3% 10% 3% 10%
 }
 
-#otayhteytta {
-    margin: 3% 10% 3% 10%
+/*Yhteystiedot sivun asettelu*/
+.kaksiosainen {
+    display: grid;
+    grid-template-columns: 25% 70%;
+    /* Jakaa näytön kahteen erikokoiseen osaan, vasen puoli yhteystiedoille ja oikea toimipisteille */
+    gap: 100px;
 }
+
+.vasen {
+    text-align: left;
+}
+
+.yhteystiedot {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* Luo tilaa rivien väliin*/
+}
+
+.rivi {
+    display: flex;
+    justify-content: space-between;
+    /* Tekstit erotetaan */
+}
+
+
