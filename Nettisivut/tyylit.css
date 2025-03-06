@@ -3,7 +3,7 @@ body {
     background-color: #8fbc8f;
     font-family: Verdana;
     font-size: 18px;
-    text-shadow: 0.3px 0.3px #4c5761;
+    text-shadow: 0.5px 0.5px #4c5761;
     margin: 0;
 
     /*selain luo automaattisesti pienen marginaalin*/
@@ -202,9 +202,10 @@ figcaption {
 footer {
     background-color: #FFFFf0 !important;
     color: #4c5761;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    font-size: 10px;
+    font-size: 8px;
+    text-shadow: none;
 
 }
 
