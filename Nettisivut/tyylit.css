@@ -379,6 +379,13 @@ footer {
         margin-bottom: 100px;
     }
 
+    #hinnasto {
+        grid-template-areas:
+            'g1 g1 g3'
+            'g2 g2 g3';
+        margin-bottom: 100px;
+    }
+
 
     footer {
         flex-direction: row;
