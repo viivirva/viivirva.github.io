@@ -152,7 +152,7 @@ figcaption {
     font-family: kuvateksti, "verdana";
     padding: 6px;
     text-align: center;
-    text-shadow: 0.25px 0.25px #4c5761;
+    text-shadow: 0.5px 0.5px #4c5761;
 }
 
 .kuva {
