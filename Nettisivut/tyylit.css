@@ -204,9 +204,9 @@ footer {
 /*Yhteystiedot sivun asettelu*/
 .kaksiosainen {
     display: grid;
-    grid-template-columns: 25% 70%;
+    grid-template-columns: 35% 65%;
     /* Jakaa näytön kahteen erikokoiseen osaan, vasen puoli yhteystiedoille ja oikea toimipisteille */
-    gap: 500px;
+    gap: 40px;
 }
 
 .vasen {
@@ -216,7 +216,7 @@ footer {
 .yhteystiedot {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
     /* Luo tilaa rivien väliin*/
 }
 
