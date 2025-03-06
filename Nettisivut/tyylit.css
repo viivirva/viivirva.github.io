@@ -178,7 +178,7 @@ footer {
     display: grid;
     grid-template-columns: 25% 70%;
     /* Jakaa näytön kahteen erikokoiseen osaan, vasen puoli yhteystiedoille ja oikea toimipisteille */
-    gap: 100px;
+    gap: 500px;
 }
 
 .vasen {
