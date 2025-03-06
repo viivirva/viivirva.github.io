@@ -52,7 +52,7 @@ p {
     padding-left: 20px;
     font-family: otsikko, "verdana";
     font-size: 18px;
-    color: #4c5761;
+    color: #FFFFf0;
     text-shadow: 0.25px 0.25px #4c5761;
     padding-top: 20px;
     margin: 3% 10% 3% 10%;
@@ -135,7 +135,7 @@ figure {
 
 figcaption {
 
-    color: #4c5761;
+    color: #FFFFf0;
     font-style: verdana;
     padding: 6px;
     text-align: center;
@@ -160,7 +160,7 @@ figcaption {
 footer {
     background-color: #FFFFf0;
     color: #4c5761;
-    padding: 200px;
+    padding: 20px;
     text-align: center;
     font-size: 15px;
 
