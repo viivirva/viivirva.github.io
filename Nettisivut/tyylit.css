@@ -1,9 +1,11 @@
 body {
-    color: #4c5761;
+    color: #FFFFf0;
     background-color: #8fbc8f;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 16px;
+    text-shadow: 0.25px 0.25px #4c5761;
     margin: 0;
+
     /*selain luo automaattisesti pienen marginaalin*/
 }
 
@@ -29,7 +31,20 @@ h1 {
 h2,
 h3 {
     font-family: otsikko, "verdana";
+    padding-left: 20px;
+    text-align: left;
+    margin: 3% 10% 3% 10%;
+    text-shadow: 1px 1px #4c5761;
 }
+
+p {
+    font-family: Verdana;
+    text-align: left;
+    padding-left: 20px;
+    margin: 3% 10% 3% 10%;
+    text-shadow: 0.25px 0.25px #4c5761;
+}
+
 
 
 
@@ -100,6 +115,8 @@ nav a:hover {
     text-shadow: 1px 1px #4c5761;
 }
 
+
+
 #etusivu {
     position: relative;
     background-image: url("kuvat/hierontapoyta2.jpg");
@@ -108,7 +125,6 @@ nav a:hover {
     height: 400px;
     width: 100%;
 }
-
 
 
 figure {
