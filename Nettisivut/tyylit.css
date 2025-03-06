@@ -175,3 +175,45 @@ footer .social-media a:hover {
 #slogan {
     margin: 3% 10% 3% 10%
 }
+
+/*Yhteystiedot sivun asettelu*/
+.kaksiosainen {
+    display: grid;
+    grid-template-columns: 25% 70%;
+    /* Jakaa tilan kahteen yhtä leveään osaan */
+    gap: 100px;
+}
+
+.vasen {
+    text-align: left;
+
+    .yhteystiedot {
+        display: flex;
+        flex-direction: column;
+        /* Pitää rivit pystysuunnassa */
+        gap: 20px;
+        /* Lisää tilaa rivien väliin */
+    }
+
+    .rivi {
+        display: flex;
+        justify-content: space-between;
+        /* Tekstit erotetaan */
+
+    }
+
+    .oikea {
+        background-color: #e0e0e0;
+        padding: 20px;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* Kaksi yhtä leveää osaa */
+        gap: 20px;
+        /* Lisää tilaa osien väliin */
+    }
+
+    .osio {
+        background-color: #ccc;
+        padding: 20px;
+        border-radius: 10px;
