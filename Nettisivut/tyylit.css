@@ -196,26 +196,10 @@ footer .social-media a:hover {
     /* Lisää tilaa rivien väliin */
 }
 
-    .rivi {
-        display: flex;
-        justify-content: space-between;
-        /* Tekstit erotetaan */
+.rivi {
+    display: flex;
+    justify-content: space-between;
+    /* Tekstit erotetaan */
+}
 
-    }
 
-    .oikea {
-        background-color: #e0e0e0;
-        padding: 20px;
-        border-radius: 10px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        /* Kaksi yhtä leveää osaa */
-        gap: 20px;
-        /* Lisää tilaa osien väliin */
-    }
-
-    .osio {
-        background-color: #ccc;
-        padding: 20px;
-        border-radius: 10px;
-    }
