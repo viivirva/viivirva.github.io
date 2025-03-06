@@ -201,7 +201,7 @@ footer {
 /*mobiilikoko*/
 @media (max-width: 600px) {
     #etusivu {
-        background-image: url(kuvat/paakuva-kahvila-mobiili.jpg);
+        background-image: url(kuvat/hierontapoyta2.jpg);
         background-size: cover;
         height: 400px;
     }
@@ -361,6 +361,10 @@ footer {
     }
 
     h3 {
+        font-size: 25px;
+    }
+
+    p {
         font-size: 25px;
     }
 
