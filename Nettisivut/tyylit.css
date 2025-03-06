@@ -197,3 +197,19 @@ footer {
     justify-content: space-between;
     /* Tekstit erotetaan */
 }
+
+/* palvelut sivun nappula*/
+.otayhteytta {
+    border: 1px solid #4c5761;
+    border-radius: 10px;
+    background-color: #FFFFf0;
+    font-family: otsikko, "verdana";
+    color: #4c5761;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-shadow: none;
+}
