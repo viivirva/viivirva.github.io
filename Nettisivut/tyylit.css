@@ -186,14 +186,15 @@ footer .social-media a:hover {
 
 .vasen {
     text-align: left;
+}
 
-    .yhteystiedot {
-        display: flex;
-        flex-direction: column;
-        /* Pitää rivit pystysuunnassa */
-        gap: 20px;
-        /* Lisää tilaa rivien väliin */
-    }
+.yhteystiedot {
+    display: flex;
+    flex-direction: column;
+    /* Pitää rivit pystysuunnassa */
+    gap: 20px;
+    /* Lisää tilaa rivien väliin */
+}
 
     .rivi {
         display: flex;
@@ -217,3 +218,4 @@ footer .social-media a:hover {
         background-color: #ccc;
         padding: 20px;
         border-radius: 10px;
+    }
