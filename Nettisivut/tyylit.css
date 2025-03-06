@@ -158,7 +158,7 @@ figcaption {
 
 /*footer, joka sivulla sama*/
 footer {
-    background-color: #FFFFf0;
+    background-color: #FFFFf0 !important;
     color: #4c5761;
     padding: 20px;
     text-align: center;
