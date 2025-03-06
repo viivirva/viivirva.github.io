@@ -49,7 +49,7 @@ p {
 .esittely {
 
     font-family: otsikko, "verdana";
-    font-size: 18px;
+    font-size: 20px;
     color: #FFFFf0;
     text-shadow: 0.5px 0.5px #4c5761;
     padding-top: 20px;
@@ -420,7 +420,7 @@ footer {
     }
 
     .esittely {
-        font-size: 25px;
+        font-size: 28px;
     }
 
     #paasivu {
