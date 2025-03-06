@@ -173,7 +173,8 @@ figcaption {
 
 #painike {
     text-align: center;
-    padding: 5px;
+    padding: 1px;
+    margin-bottom: 80px;
 }
 
 #mikaliotsikko {
