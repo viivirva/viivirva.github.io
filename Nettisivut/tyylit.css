@@ -3,8 +3,7 @@ body {
     background-color: #8fbc8f;
     font-family: Verdana;
     font-size: 18px;
-    text-shadow: 0.25px 0.25px #4c5761;
-
+    text-shadow: 0.3px 0.3px #4c5761;
     margin: 0;
 
     /*selain luo automaattisesti pienen marginaalin*/
@@ -52,8 +51,9 @@ p {
     font-family: otsikko, "verdana";
     font-size: 18px;
     color: #FFFFf0;
-    text-shadow: 0.25px 0.25px #4c5761;
+    text-shadow: 0.5px 0.5px #4c5761;
     padding-top: 20px;
+    margin: 0;
 
 }
 
