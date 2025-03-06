@@ -1,9 +1,9 @@
 body {
-    color: #FFFFf0;
+    color: #fffff0;
     background-color: #8fbc8f;
     font-family: Verdana;
-    font-size: 18px;
-    text-shadow: 0.5px 0.5px #4c5761;
+    font-size: 20px;
+    text-shadow: 0.4px 0.4px #4c5761;
     margin: 0;
 
     /*selain luo automaattisesti pienen marginaalin*/
@@ -51,8 +51,8 @@ p {
     font-family: otsikko, "verdana";
     font-size: 20px;
     color: #FFFFf0;
-    text-shadow: 0.5px 0.5px #4c5761;
-    padding-top: 20px;
+    text-shadow: 0.4px 0.4px #4c5761;
+    padding-top: 25px;
     margin: 0;
 
 }
@@ -415,12 +415,8 @@ footer {
         font-size: 25px;
     }
 
-    p {
-        font-size: 25px;
-    }
-
     .esittely {
-        font-size: 28px;
+        font-size: 25px;
     }
 
     #paasivu {
