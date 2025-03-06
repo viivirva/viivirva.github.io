@@ -1,5 +1,5 @@
 body {
-    color: #4c5761;
+    color: #FFFFf0;
     background-color: #8fbc8f;
     font-family: Verdana;
     font-size: 18px;
@@ -158,8 +158,8 @@ figcaption {
 
 /*footer, joka sivulla sama*/
 footer {
-    background-color: #8fbc8f;
-    color: #FFFFf0;
+    background-color: #FFFFf0;
+    color: #4c5761;
     padding: 20px;
     text-align: center;
     font-size: 16px;
