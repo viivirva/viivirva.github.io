@@ -1,9 +1,10 @@
 body {
-    color: #FFFFf0;
+    color: #4c5761;
     background-color: #8fbc8f;
-    font-family: Verdana, Tahoma, sans-serif;
-    font-size: 16px;
+    font-family: Verdana;
+    font-size: 18px;
     text-shadow: 0.25px 0.25px #4c5761;
+
     margin: 0;
 
     /*selain luo automaattisesti pienen marginaalin*/
@@ -38,11 +39,9 @@ h3 {
 }
 
 p {
-    font-family: Verdana;
-    text-align: left;
     padding-left: 20px;
     margin: 3% 10% 3% 10%;
-    text-shadow: 0.25px 0.25px #4c5761;
+
 }
 
 
@@ -53,7 +52,7 @@ p {
     padding-left: 20px;
     font-family: otsikko, "verdana";
     font-size: 18px;
-    color: #FFFFf0;
+    color: #4c5761;
     text-shadow: 0.25px 0.25px #4c5761;
     padding-top: 20px;
     margin: 3% 10% 3% 10%;
@@ -131,20 +130,20 @@ figure {
 
     margin: auto;
     margin-bottom: 0px;
-    max-width: 400px;
+    max-width: 300px;
 }
 
 figcaption {
 
-    color: #FFFFf0;
-    font-style: italic;
+    color: #4c5761;
+    font-style: verdana;
     padding: 6px;
     text-align: center;
     text-shadow: 0.25px 0.25px #4c5761;
 }
 
 .kuva {
-    max-width: 400px;
+    max-width: 300px;
     vertical-align: middle;
     width: 100%;
 
@@ -161,31 +160,13 @@ figcaption {
 footer {
     background-color: #8fbc8f;
     color: #FFFFf0;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
+    font-size: 16px;
 
 }
 
-footer nav a {
-    margin: 0 10px;
-}
 
-footer .social-media {
-    margin-top: 10px;
-}
-
-footer .social-media a {
-    margin: 0 10px;
-    color: #FFFFf0;
-    font-size: 24px;
-    transition: color 0.3s;
-
-
-}
-
-footer .social-media a:hover {
-    color: #8fbc8f;
-}
 
 /* Etusivun asettelu*/
 #slogan {
@@ -197,7 +178,7 @@ footer .social-media a:hover {
     display: grid;
     grid-template-columns: 25% 70%;
     /* Jakaa näytön kahteen erikokoiseen osaan, vasen puoli yhteystiedoille ja oikea toimipisteille */
-    gap: 100px;
+    gap: 500px;
 }
 
 .vasen {
@@ -215,21 +196,4 @@ footer .social-media a:hover {
     display: flex;
     justify-content: space-between;
     /* Tekstit erotetaan */
-}
-
-/* Ota yhteyttä nappulan tyyli */
-#otayhteytta {
-    border: 1px solid #FFFFf0;
-    border-radius: 10px;
-    background-color: #FFFFf0;
-    font-family: otsikko, "verdana";
-    color: #FFFFf0;
-    padding: 10px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    text-shadow: 1px 1px #4c5761;
-
 }
