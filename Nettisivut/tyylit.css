@@ -180,7 +180,7 @@ footer .social-media a:hover {
 .kaksiosainen {
     display: grid;
     grid-template-columns: 25% 70%;
-    /* Jakaa tilan kahteen yhtä leveään osaan */
+    /* Jakaa näytön kahteen erikokoiseen osaan, vasen puoli yhteystiedoille ja oikea toimipisteille */
     gap: 100px;
 }
 
@@ -191,9 +191,8 @@ footer .social-media a:hover {
 .yhteystiedot {
     display: flex;
     flex-direction: column;
-    /* Pitää rivit pystysuunnassa */
     gap: 20px;
-    /* Lisää tilaa rivien väliin */
+    /* Luo tilaa rivien väliin*/
 }
 
 .rivi {
