@@ -107,7 +107,7 @@ nav a:hover {
 /* Etusivun asettelu */
 #etusivu {
     position: relative;
-    background-image: url("kuvat/hierontapoyta2.jpg");
+    background-image: url("kuvat/paakuva-hieromapoyta.jpg");
     background-size: cover;
     background-position: center;
     height: 950px;
@@ -263,7 +263,7 @@ footer {
 /*mobiilikoko*/
 @media (max-width: 600px) {
     #etusivu {
-        background-image: url(kuvat/hierontapoyta2.jpg);
+        background-image: url(kuvat/paakuva-hieromapoyta.jpg);
         background-size: cover;
         height: 400px;
     }
@@ -336,7 +336,7 @@ footer {
 /*tablettikoko*/
 @media screen and (min-width: 600px) {
     #etusivu {
-        background-image: url(kuvat/hierontapoyta2.jpg);
+        background-image: url(kuvat/paakuva-hieromapoyta.jpg);
         background-size: cover;
         height: 600px;
     }
@@ -399,7 +399,7 @@ footer {
 /*suuri näyttö*/
 @media screen and (min-width: 1200px) {
     #etusivu {
-        background-image: url(kuvat/hierontapoyta2.jpg);
+        background-image: url(kuvat/paakuva-hieromapoyta.jpg);
         background-size: cover;
         height: 950px;
     }
