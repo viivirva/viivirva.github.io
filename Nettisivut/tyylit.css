@@ -100,7 +100,7 @@ nav a:hover {
 }
 
 .toimintakehote {
-    border: 1px solid #FFFFf0;
+    border: 1.5px solid #FFFFf0;
     border-radius: 10px;
     background-color: #8fbc8f;
     font-family: otsikko, "verdana";
