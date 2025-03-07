@@ -195,6 +195,7 @@ th {
 .kartat-sailo {
     display: flex;
     justify-content: space-between;
+    text-align: left;
     /* Kartat asetetaan vierekkäin */
 
 }
@@ -205,8 +206,8 @@ th {
     width: 48%;
     /* Kartan säilyttäminen 48% leveänä */
     padding-bottom: 20px;
-    padding-right: 10px;
-    margin: 3% 10% 3% 10%;
+    padding-right: 5px;
+    margin: 3% 6% 3% 6%;
 }
 
 /* Kartan iframe-tyylit */
@@ -354,7 +355,6 @@ footer {
     /* Yksittäinen kartta ottaa koko tilan */
     .kartta {
         width: 48%;
-        /* Kartat vievät koko leveys */
     }
 
     /* Kartan iframeen säilytetään sama korkeus */
