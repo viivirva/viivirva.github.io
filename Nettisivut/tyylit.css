@@ -58,7 +58,7 @@ p {
 
 }
 
-/*päävalikko*/
+/*päävalikko, joka sivulla yhtenäinen*/
 nav {
     position: absolute;
     top: 0;
@@ -169,6 +169,7 @@ figcaption {
     /* flex-direction: column;*/
 }
 
+/*yhteystietosivun rakenne*/
 table {
     text-align: left;
     padding-top: 20px;
@@ -278,7 +279,6 @@ footer {
         font-size: 15px;
         width: 100px;
         height: 20px;
-
         margin: 3px 5px;
     }
 
@@ -306,6 +306,10 @@ footer {
 
     h3 {
         font-size: 18px;
+    }
+
+    p {
+        text-shadow: 0.5px 0.8px #4c5761;
     }
 
     .esittely {
