@@ -1,128 +1,120 @@
+/* Yleinen tyyli */
 body {
-    color: #fffff0;
-    background-color: #8fbc8f;
-    font-family: verdana;
+    color: #FFFFF0;
+    /* Huom: korjasin kirjoitusvirheen värikoodista (pitäisi olla isolla kaikki) */
+    background-color: #8FBC8F;
+    font-family: Verdana, sans-serif;
     font-size: 16px;
-    text-shadow: 0.25px 0.4px #4c5761;
+    text-shadow: 0.25px 0.4px #4C5761;
     margin: 0;
-
-    /*selain luo automaattisesti pienen marginaalin*/
+    /* Selain luo automaattisesti pienen marginaalin */
 }
 
+/* Ylätunniste */
 header {
     text-align: center;
     padding-top: 30px;
 }
 
-
-
-/*fontit*/
+/* Fonttityylit */
 h1 {
-    font-family: otsikko, "verdana";
+    font-family: "Verdana", sans-serif;
     font-size: 35px;
-    color: #FFFFf0;
-    text-shadow: 2px 2px #4c5761;
+    color: #FFFFF0;
+    text-shadow: 2px 2px #4C5761;
     text-align: center;
     padding-top: 70px;
-
 }
-
 
 h2,
 h3 {
-    font-family: otsikko, "verdana";
+    font-family: "Verdana", sans-serif;
     padding-left: 20px;
     text-align: left;
-    margin: 3% 10% 3% 10%;
-    text-shadow: 1.5px 1.5px #4c5761;
-    color: #FFFFf0;
+    margin: 3% 10%;
+    text-shadow: 1.5px 1.5px #4C5761;
+    color: #FFFFF0;
 }
 
 p {
     padding-left: 20px;
-    margin: 3% 10% 3% 10%;
-
+    margin: 3% 10%;
 }
-
-
-
 
 .esittely {
-
-    font-family: otsikko, "verdana";
+    font-family: "Verdana", sans-serif;
     font-size: 20px;
-    color: #FFFFf0;
-    text-shadow: 0.4px 0.4px #4c5761;
+    color: #FFFFF0;
+    text-shadow: 0.4px 0.4px #4C5761;
     padding-top: 25px;
     margin: 0;
-
 }
 
-/*päävalikko, joka sivulla yhtenäinen*/
+/* Navigointivalikko */
 nav {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     z-index: 10;
-    background-color: #8fbc8f;
+    background-color: #8FBC8F;
     text-align: center;
     padding: 5px;
 }
 
 nav a {
-    background: #8fbc8f;
-    font-family: otsikko, "verdana";
-    padding: 1px 30px;
-    color: #FFFFf0;
+    background: #8FBC8F;
+    font-family: "Verdana", sans-serif;
+    padding: 5px 30px;
+    color: #FFFFF0;
     text-decoration: none;
     display: inline-block;
-    text-shadow: 1px 1px #4c5761;
-
-
+    text-shadow: 1px 1px #4C5761;
 }
 
-
 nav a:hover {
-    color: #4c5761;
-    background-color: #FFFFf0;
-    border: 1px solid #4c5761;
+    color: #4C5761;
+    background-color: #FFFFF0;
+    border: 1px solid #4C5761;
     border-radius: 10px;
-    text-shadow: 1px 1px #FFFFf0;
+    text-shadow: 1px 1px #FFFFF0;
 }
 
 #valittu {
-    color: #4c5761;
-    background-color: #fffff0;
-    border: 1px solid #4c5761;
+    color: #4C5761;
+    background-color: #FFFFF0;
+    border: 1px solid #4C5761;
     border-radius: 10px;
-    text-shadow: 1px 1px #FFFFf0;
+    text-shadow: 1px 1px #FFFFF0;
 }
 
+/* Toimintakehote */
 .toimintakehote {
-    border: 1.5px solid #FFFFf0;
+    border: 1.5px solid #FFFFF0;
     border-radius: 10px;
-    background-color: #8fbc8f;
-    font-family: otsikko, "verdana";
-    color: #FFFFf0;
+    background-color: #8FBC8F;
+    font-family: "Verdana", sans-serif;
+    color: #FFFFF0;
     padding: 10px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     margin: 4px 2px;
     cursor: pointer;
-    text-shadow: 1px 1px #4c5761;
+    text-shadow: 1px 1px #4C5761;
 }
 
-
-
+/* Etusivun asettelu */
 #etusivu {
     position: relative;
     background-image: url("kuvat/hierontapoyta2.jpg");
     background-size: cover;
     background-position: center;
     height: 950px;
+}
 
+#slogan {
+    margin: 3% 10% 3% 10%
 }
 
 /*pääsivun sisällön asettelu*/
@@ -134,43 +126,71 @@ nav a:hover {
     grid-area: g2;
 }
 
-.grid-container {
-    display: grid;
-    gap: 20px;
-    padding: 20px;
-}
-
 figure {
-
     margin: auto;
     margin-bottom: 0px;
     max-width: 300px;
 }
 
 figcaption {
-
-    color: #FFFFf0;
-    font-family: kuvateksti, "verdana";
+    color: #FFFFF0;
+    font-family: "Verdana", sans-serif;
     padding: 6px;
     text-align: center;
-    text-shadow: 0.5px 0.5px #4c5761;
+    text-shadow: 0.5px 0.5px #4C5761;
 }
 
 .kuva {
     max-width: 300px;
     vertical-align: middle;
     width: 100%;
-
+    padding-top: 50px;
+    padding-right: 30px;
+    margin: 0;
 }
 
-/* palvelut-sivun asettelu*/
+/* Yhteystiedot-taulukon tyyli */
+table {
+    text-align: center;
+    margin: 3% 10%;
+    padding: 20px;
+}
+
+th {
+    padding-right: 100px;
+    text-align: left;
+    text-shadow: 1.5px 1.5px #4C5761;
+}
+
+/*Palvelut-sivun asettelu*/
 #hinnasto {
     margin: 3% 10% 3% 10%;
-    /* flex-direction: column;*/
 }
 
+/* Yhteystiedot ja palbelut-sivun painikkeet */
+#painike {
+    text-align: center;
+    padding: 1px;
+    margin-bottom: 80px;
+    margin-top: 0px;
+}
 
-/*yhteystietosivun rakenne*/
+.otayhteytta {
+    border: 1px solid #4C5761;
+    border-radius: 10px;
+    background-color: #FFFFF0;
+    font-family: "Verdana", sans-serif;
+    color: #4C5761;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-shadow: none;
+}
+
+/*yhteystietosivun taulukko*/
 table {
     text-align: left;
     padding-top: 20px;
@@ -224,58 +244,21 @@ th {
     margin: 3% 10% 3% 10%;
 }
 
-.otayhteytta {
-
-    border: 1px solid #4c5761;
-    border-radius: 10px;
-    background-color: #FFFFf0;
-    font-family: otsikko, "verdana";
-    color: #4c5761;
-    padding: 10px 32px;
+/*kehotus*/
+#lopputeksti h2 {
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    text-shadow: none
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
-#painike {
-    text-align: center;
-    padding: 1px;
-    margin-bottom: 80px;
-}
-
-#mikaliotsikko {
-    color: #FFFFf0;
-    font-family: Verdana;
-    font-size: 25px;
-    text-align: center
-}
-
-
-
-/*footer, joka sivulla sama*/
+/* Alatunniste */
 footer {
-    background-color: #FFFFf0 !important;
-    color: #4c5761;
+    background-color: #FFFFF0 !important;
+    color: #4C5761;
     padding: 10px;
     text-align: center;
     font-size: 14px;
     text-shadow: none;
-}
-
-/* Etusivun asettelu*/
-#slogan {
-    margin: 3% 10% 3% 10%
-}
-
-/*Yhteystiedot sivun asettelu*/
-#toimintakehote-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
 }
 
 /*mobiilikoko*/
@@ -288,7 +271,7 @@ footer {
 
     nav a {
         font-size: 15px;
-        width: 100px;
+        width: 110px;
         height: 20px;
         margin: 3px 5px;
     }
@@ -356,7 +339,7 @@ footer {
         font-size: 15px;
         width: 120px;
         height: 20px;
-        margin: 3px 5px;
+        margin: 3px 10px;
     }
 
     #slogan {
@@ -372,7 +355,7 @@ footer {
     }
 
     .sisalto {
-        margin: 3% 15% 3% 15%;
+        margin: 3% 10% 3% 10%;
     }
 
     h1 {
@@ -481,11 +464,11 @@ footer {
 
     }
 
+    /*karttojen asetus vierekkäin*/
     .kartat {
         display: flex;
         justify-content: space-between;
         text-align: left;
-        /* Kartat asetetaan vierekkäin */
     }
 
     .kartta {
@@ -498,6 +481,7 @@ footer {
         max-width: 500px;
         margin: 60px;
         margin-top: 0;
+        margin-bottom: 0;
     }
 
     footer {
@@ -507,4 +491,6 @@ footer {
         width: 100%;
         max-height: 15%;
     }
+
+
 }
