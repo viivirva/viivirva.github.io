@@ -327,6 +327,7 @@ footer {
 footer {
     flex-direction: column;
     text-align: center;
+    text-shadow: none;
 }
 
 /*tablettikoko*/
