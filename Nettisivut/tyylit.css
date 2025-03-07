@@ -197,7 +197,6 @@ th {
     width: 100%;
     margin-left: auto;
     padding-top: 15px;
-    ;
     padding-bottom: 15px;
     vertical-align: middle;
 
@@ -206,11 +205,8 @@ th {
 /* Kartan iframe-tyylit */
 .kartta iframe {
     width: 100%;
-    /* Kartan iframe vie koko leveyden */
     height: 300px;
-    /* Kartan korkeus */
     border: 0;
-    /* Poistaa kehyksen */
     max-width: 300px;
     margin: 3% 10% 3% 10%;
     padding: 20px;
@@ -267,10 +263,7 @@ footer {
     text-align: center;
     font-size: 14px;
     text-shadow: none;
-
 }
-
-
 
 /* Etusivun asettelu*/
 #slogan {
@@ -278,7 +271,6 @@ footer {
 }
 
 /*Yhteystiedot sivun asettelu*/
-
 #toimintakehote-container {
     display: flex;
     justify-content: center;
@@ -505,6 +497,9 @@ footer {
 
     .kartta iframe {
         max-width: 500px;
+        margin: 3% 10% 3% 10%;
+        padding: 20px;
+
     }
 
 
