@@ -2,38 +2,37 @@
 <html lang="fi">
 
 <head>
-    <!--Hakukoneiden optimointi-->
+    <!-- Hakukoneoptimoint -->
     <meta name="robots" content="noindex">
     <meta name="googlebot" content="noindex">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yhteystiedot</title>
-    <!--Tyylit-->
+
+    <!-- CSS-tiedosto -->
     <link rel="stylesheet" href="tyylit.css">
 </head>
 
 <body>
+    <!-- Sivun yläosa, navigointivalikko -->
     <header>
         <nav>
-
             <a href="index.html">ETUSIVU</a>
             <a href="palvelut.html">PALVELUT</a>
             <a href="yhteystiedot.html" id="valittu">YHTEYSTIEDOT</a>
-
         </nav>
     </header>
 
+    <!-- Pääotsikko yhteystiedoista -->
     <h1>Yhteystiedot ja toimipisteet</h1>
-    <!--Sivun esittely teksti-->
+
+    <!-- Sivun esittelyteksti -->
     <p>Täältä löydät yhteystietoni, joiden kautta voit olla yhteydessä matalalla kynnyksellä ja varata ajan haluamaasi
         palveluun. Alta löydät myös toimipaikkojen osoitteet, joista voit valita sinulle sopivimman.</p>
 
-    <!--Sivun ylempi osa-->
-
-
+    <!-- Yhteystiedot-taulukko -->
     <h2>Yhteystiedot ja ajanvaraus</h2>
-
     <table id="ajanvaraus">
         <tr>
             <th>Instagram:</th>
@@ -55,43 +54,41 @@
         </tr>
     </table>
 
-    <!-- Sivun alempi osa -->
-
+    <!-- Toimipisteet-osion otsikko -->
     <h2>Toimipisteet:</h2>
 
-    <!-- Karttojen ja osoitetietojen säilö -->
+    <!-- Kartat ja osoitetiedot toimipisteistä -->
     <div class="kartat-sailo">
         <div class="kartta">
             <h3>Korjaava Ote Lahela</h3>
             <p>Osoite: Lahelantie 280,<br> 04330 Lahela</p>
-            <iframe id="kartta" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1971.6657150358594!2d24.98250817706297!3d60.
-        38468187514252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468dff2903a747fb%3A0xe59dd0d825679714!2sLahelantie%2028
-        0%2C%2004330%20Lahela!5e0!3m2!1sfi!2sfi!4v1741341989401!5m2!1sfi!2sfi" width="400" height="300"
-                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            <!-- Google Maps Lahelan toimipisteelle -->
+            <iframe id="kartta"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1971.6657150358594!2d24.98250817706297!3d60.38468187514252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468dff2903a747fb%3A0xe59dd0d825679714!2sLahelantie%20280%2C%2004330%20Lahela!5e0!3m2!1sfi!2sfi!4v1741341989401!5m2!1sfi!2sfi"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
 
         <div class="kartta">
             <h3>Korjaava Ote Urkka</h3>
             <p>Osoite: Tekova Areena, Kuntoilijantie 2,<br> 04300 Tuusula</p>
-            <iframe id="kartta" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1971.2517024963688!2d25.031613177063388!3d60.39152047
-        514605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468dff0062c5b6cd%3A0x7cab270b4e00e0f5!2sTekova%20Areena!5e0!3m2!1sfi!2sfi!4v
-        1741342186800!5m2!1sfi!2sfi" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            <!-- Google Maps Urkan toimipisteelle -->
+            <iframe id="kartta"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1971.2517024963688!2d25.031613177063388!3d60.39152047514605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468dff0062c5b6cd%3A0x7cab270b4e00e0f5!2sTekova%20Areena!5e0!3m2!1sfi!2sfi!4v1741342186800!5m2!1sfi!2sfi"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
     </div>
 
-
-
     <h1>Lähetä viestiä ja varaa aika!</h1>
-
-    <!--Linkki sähköposti ajanvaraukseen)-->
     <div id="painike">
-        <a href="mailto:viivi@korjaavaote.fi" class="otayhteytta"> PAINA TÄSTÄ</a>
+        <!-- toimintakehote -->
+        <a href="mailto:viivi@korjaavaote.fi" class="otayhteytta"> SÄHKÖPOSTI</a>
     </div>
 
-    <!-- Footer -->
+    <!-- Alatunniste -->
     <footer>
         <div>
             <p>Copyright &copy; 2025 Fysio Irva</p>
@@ -99,6 +96,5 @@
     </footer>
 
 </body>
-
 
 </html>

@@ -286,7 +286,6 @@ footer {
         height: 400px;
     }
 
-
     nav a {
         font-size: 15px;
         width: 100px;
@@ -328,7 +327,6 @@ footer {
         text-shadow: 1px 1px #4c5761;
     }
 
-
     .esittely {
         font-size: 18px;
     }
@@ -339,15 +337,11 @@ footer {
             'g3'
             'g2';
     }
-
-
 }
-
 
 footer {
     flex-direction: column;
     text-align: center;
-}
 }
 
 /*tablettikoko*/
