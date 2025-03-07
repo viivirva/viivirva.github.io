@@ -341,20 +341,7 @@ footer {
             'g2';
     }
 
-    .kartat-sailo {
-        display: block;
-        margin: 3px 5px;
-    }
 
-    .kartta {
-        width: 30%;
-    }
-
-    /* Kartan iframeen säilytetään sama korkeus */
-    .kartta iframe {
-        height: 250px;
-        /* Pienennetään kartan korkeutta mobiilissa */
-    }
 }
 
 
