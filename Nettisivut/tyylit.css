@@ -191,25 +191,31 @@ th {
 
 }
 
-
 /* Yksittäinen kartta (sisältää kartan ja osoitetiedot) */
 .kartta {
     text-align: left;
     width: 100%;
-    margin-left: 4%;
-    max-width: 400px;
+    margin-left: auto;
+    padding-top: 15px;
+    ;
+    padding-bottom: 15px;
+    vertical-align: middle;
+
 }
 
 /* Kartan iframe-tyylit */
 .kartta iframe {
+    width: 100%;
+    /* Kartan iframe vie koko leveyden */
     height: 300px;
+    /* Kartan korkeus */
     border: 0;
-    padding: 20px;
+    /* Poistaa kehyksen */
     max-width: 300px;
     margin: 3% 10% 3% 10%;
-    vertical-align: middle;
-}
+    padding: 20px;
 
+}
 
 #ajanvaraus {
 
@@ -493,7 +499,12 @@ footer {
         display: flex;
         justify-content: space-between;
         text-align: left;
+        gap: 20px;
         /* Kartat asetetaan vierekkäin */
+    }
+
+    .kartta iframe {
+        max-width: 500px;
     }
 
 
