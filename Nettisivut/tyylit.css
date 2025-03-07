@@ -226,30 +226,6 @@ footer {
     height: 10vh;
 }
 
-.kaksiosainen {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    /* Jakaa näytön kahteen erikokoiseen osaan, vasen puoli yhteystiedoille ja oikea toimipisteille */
-
-}
-
-.vasen {
-    text-align: left;
-}
-
-.yhteystiedot {
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
-    /* Luo tilaa rivien väliin*/
-}
-
-.rivi {
-    display: flex;
-    justify-content: space-between;
-    /* Tekstit erotetaan */
-}
-
 /*mobiilikoko*/
 @media (max-width: 600px) {
     #etusivu {
