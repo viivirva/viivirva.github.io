@@ -347,11 +347,28 @@ footer {
             'g2';
     }
 
-
-    footer {
-        flex-direction: column;
-        text-align: center;
+    .kartat-sailo {
+        display: block;
     }
+
+    /* Yksittäinen kartta ottaa koko tilan */
+    .kartta {
+        width: 80%;
+        /* Kartat vievät koko leveys */
+    }
+
+    /* Kartan iframeen säilytetään sama korkeus */
+    .kartta iframe {
+        height: 250px;
+        /* Pienennetään kartan korkeutta mobiilissa */
+    }
+}
+
+
+footer {
+    flex-direction: column;
+    text-align: center;
+}
 }
 
 /*tablettikoko*/
