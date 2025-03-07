@@ -199,8 +199,8 @@ th {
     width: 48%;
     padding: 20px;
     padding-right: 5px;
-    margin: 3%;
-    padding-bottom: 0px;
+    margin: 2%;
+
 
 
 
@@ -210,10 +210,9 @@ th {
 .kartta iframe {
     height: 300px;
     border: 0;
-    margin: 50px;
-    padding-bottom: 20px;
+    margin: 2% 8% 2% 8%;
+    padding: 20px;
     max-width: 300px;
-    padding-top: 0px;
 
 }
 
