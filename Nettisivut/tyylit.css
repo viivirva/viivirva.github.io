@@ -307,11 +307,12 @@ footer {
     }
 
     th {
-        text-shadow: 1px 1px #4c5761;
+        text-shadow: 1.5px 1.5px #4c5761;
     }
 
     .esittely {
         font-size: 18px;
+        text-shadow: 1px 1px #4C5761;
     }
 
     #paasivu {
