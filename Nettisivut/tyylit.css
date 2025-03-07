@@ -322,12 +322,15 @@ footer {
             'g3'
             'g2';
     }
-}
 
-footer {
-    flex-direction: column;
-    text-align: center;
-    text-shadow: none;
+    #footer p {
+        text-shadow: none;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 /*tablettikoko*/
