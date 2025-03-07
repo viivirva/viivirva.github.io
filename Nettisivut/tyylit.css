@@ -350,9 +350,9 @@ footer {
 
     .kartat-sailo {
         display: block;
+        flex-direction: column;
     }
 
-    /* Yksittäinen kartta ottaa koko tilan */
     .kartta {
         width: 30%;
     }
