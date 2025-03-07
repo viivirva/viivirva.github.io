@@ -196,17 +196,19 @@ th {
 /* Yksittäinen kartta (sisältää kartan ja osoitetiedot) */
 .kartta {
     text-align: left;
-    width: 48%;
+    width: 90%;
     padding: 20px;
     padding-right: 5px;
-    margin: 3% 6% 3% 6%;
+    margin: 0;
+    max-width: 300px;
+    vertical-align: middle;
 }
 
 /* Kartan iframe-tyylit */
 .kartta iframe {
     height: 300px;
     border: 0;
-    margin: 3% 10% 3% 10%;
+    margin: 50px;
     padding-bottom: 20px;
 
 }
