@@ -207,8 +207,6 @@ th {
     text-align: left;
     text-shadow: 1.5px 1.5px #4c5761;
     padding-bottom: 0px;
-
-
 }
 
 td {
@@ -223,7 +221,6 @@ td {
     padding-top: 15px;
     padding-bottom: 15px;
     vertical-align: middle;
-
 }
 
 /* Kartan iframe-tyylit */
@@ -234,11 +231,9 @@ td {
     max-width: 300px;
     margin: 3% 10% 3% 10%;
     padding: 20px;
-
 }
 
 #ajanvaraus {
-
     padding: 20px;
     padding-bottom: 20px;
 }
