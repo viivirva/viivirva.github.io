@@ -197,8 +197,7 @@ th {
 .kartta {
     text-align: left;
     width: 48%;
-    /* Kartan säilyttäminen 48% leveänä */
-    padding-bottom: 20px;
+    padding: 20px;
     padding-right: 5px;
     margin: 3% 6% 3% 6%;
 }
@@ -206,11 +205,10 @@ th {
 /* Kartan iframe-tyylit */
 .kartta iframe {
     height: 300px;
-    /* Kartan korkeus */
     border: 0;
-    /* Poistaa kehyksen */
     margin: 3% 10% 3% 10%;
     padding-bottom: 20px;
+
 }
 
 
