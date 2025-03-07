@@ -211,6 +211,10 @@ th {
 
 }
 
+td {
+    padding-bottom: 20px;
+}
+
 /* Yksittäinen kartta (sisältää kartan ja osoitetiedot) */
 .kartta {
     text-align: left;
@@ -274,6 +278,7 @@ footer {
         width: 110px;
         height: 20px;
         margin: 3px 5px;
+        text-shadow: 1.5px 1.5px #4C5761;
     }
 
     #slogan {
@@ -284,6 +289,7 @@ footer {
 
     .toimintakehote {
         font-size: 18px;
+        text-shadow: 1.5px 1.5px #4C5761;
     }
 
     .sisalto {
@@ -341,7 +347,7 @@ footer {
         width: 120px;
         height: 20px;
         margin: 3px 10px;
-        text-shadow: 1.5px 1.5px #4C5761;
+
     }
 
     #slogan {
