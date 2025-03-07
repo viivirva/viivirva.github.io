@@ -481,7 +481,7 @@ footer {
 
     }
 
-    .kartat-sailo {
+    .kartat {
         display: flex;
         justify-content: space-between;
         text-align: left;
