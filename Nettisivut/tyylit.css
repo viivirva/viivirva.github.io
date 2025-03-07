@@ -354,7 +354,7 @@ footer {
 
     /* Yksittäinen kartta ottaa koko tilan */
     .kartta {
-        width: 48%;
+        width: 30%;
     }
 
     /* Kartan iframeen säilytetään sama korkeus */
