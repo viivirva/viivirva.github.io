@@ -350,7 +350,7 @@ footer {
 
     .kartat-sailo {
         display: block;
-        flex-direction: column;
+        margin: 3px 5px;
     }
 
     .kartta {
