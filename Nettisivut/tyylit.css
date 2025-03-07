@@ -353,7 +353,7 @@ footer {
 
     /* Yksittäinen kartta ottaa koko tilan */
     .kartta {
-        width: 80%;
+        width: 48%;
         /* Kartat vievät koko leveys */
     }
 
