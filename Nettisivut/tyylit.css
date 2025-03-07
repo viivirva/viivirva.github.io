@@ -192,25 +192,33 @@ th {
 
 }
 
-#kartta1 {
-
-    max-width: 80%;
-    margin: 3% 10% 3% 10%;
-    padding: 20px;
-    padding-top: 0px;
-
+.kartat-sailo {
+    display: flex;
+    justify-content: space-between;
+    /* Kartat asetetaan vierekkäin */
 
 }
 
-#kartta2 {
-
-    max-width: 80%;
+/* Yksittäinen kartta (sisältää kartan ja osoitetiedot) */
+.kartta {
+    text-align: left;
+    width: 48%;
+    /* Kartan säilyttäminen 48% leveänä */
+    padding-bottom: 20px;
+    padding-right: 10px;
     margin: 3% 10% 3% 10%;
-    padding: 20px;
-    padding-top: 0px;
-
-
 }
+
+/* Kartan iframe-tyylit */
+.kartta iframe {
+    height: 300px;
+    /* Kartan korkeus */
+    border: 0;
+    /* Poistaa kehyksen */
+    margin: 3% 10% 3% 10%;
+    padding-bottom: 20px;
+}
+
 
 #ajanvaraus {
 
@@ -459,6 +467,10 @@ footer {
         font-size: 23px;
     }
 
+    .kartta p {
+        font-size: 18px;
+    }
+
     .esittely {
         font-size: 25px;
     }
@@ -478,10 +490,7 @@ footer {
         margin-bottom: 100px;
     }
 
-    .yhtalasivu {
-        margin: 3% 15% 3% 15%;
-        flex-direction: row;
-    }
+
 
     footer {
         flex-direction: row;
