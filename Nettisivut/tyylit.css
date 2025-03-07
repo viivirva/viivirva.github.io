@@ -192,13 +192,6 @@ th {
 
 }
 
-.kartat-sailo {
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
-    /* Kartat asetetaan vierekkäin */
-
-}
 
 /* Yksittäinen kartta (sisältää kartan ja osoitetiedot) */
 .kartta {
@@ -505,6 +498,14 @@ footer {
             'g1 g1 g3'
             'g2 g2 g3';
         margin-bottom: 100px;
+
+    }
+
+    .kartat-sailo {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        /* Kartat asetetaan vierekkäin */
     }
 
 
