@@ -91,7 +91,7 @@ nav a:hover {
 
 /* Toimintakehote */
 .toimintakehote {
-    border: 2px solid #FFFFF0;
+    border: 1.5px solid #FFFFF0;
     border-radius: 10px;
     background-color: #8fbc8f71;
     font-family: "Verdana", sans-serif;
@@ -177,7 +177,7 @@ th {
 }
 
 .otayhteytta {
-    border: 2px solid #4C5761;
+    border: 1.5px solid #4C5761;
     border-radius: 10px;
     background-color: #fffff0f1;
     font-family: "Verdana", sans-serif;
@@ -281,7 +281,7 @@ footer {
     #slogan {
         font-size: 25px;
         padding: 15px;
-        padding-top: 80px;
+        padding-top: 120px;
     }
 
     .toimintakehote {
