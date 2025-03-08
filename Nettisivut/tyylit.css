@@ -27,8 +27,7 @@
  }
 
  h2,
- h3,
- p {
+ h3 {
      font-family: "Verdana", sans-serif;
      padding-left: 20px;
      text-align: left;
@@ -38,7 +37,11 @@
  }
 
  p {
-     text-shadow: 0.5px 0.9px #4C5761;
+     font-family: "Verdana", sans-serif;
+     padding-left: 20px;
+     text-align: left;
+     margin: 3% 10%;
+
  }
 
  /* Navigointivalikko */
