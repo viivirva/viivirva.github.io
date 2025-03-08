@@ -4,7 +4,7 @@ body {
     /* Huom: korjasin kirjoitusvirheen värikoodista (pitäisi olla isolla kaikki) */
     background-color: #8FBC8F;
     font-family: Verdana, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     text-shadow: 0.25px 0.4px #4C5761;
     margin: 0;
     /* Selain luo automaattisesti pienen marginaalin */
@@ -27,7 +27,8 @@ h1 {
 }
 
 h2,
-h3 {
+h3,
+p {
     font-family: "Verdana", sans-serif;
     padding-left: 20px;
     text-align: left;
@@ -37,17 +38,7 @@ h3 {
 }
 
 p {
-    padding-left: 20px;
-    margin: 3% 10%;
-}
-
-.esittely {
-    font-family: "Verdana", sans-serif;
-    font-size: 20px;
-    color: #FFFFF0;
-    text-shadow: 0.4px 0.4px #4C5761;
-    padding-top: 25px;
-    margin: 0;
+    text-shadow: 0.5px 0.9px #4C5761;
 }
 
 /* Navigointivalikko */
@@ -74,7 +65,7 @@ nav a {
 
 nav a:hover {
     color: #4C5761;
-    background-color: #fffff057;
+    background-color: rgba(255, 255, 240, 0.35);
     border: 1.5px solid #4C5761;
     border-radius: 10px;
     text-shadow: none;
@@ -82,7 +73,7 @@ nav a:hover {
 
 #valittu {
     color: #4C5761;
-    background-color: #fffff0f1;
+    background-color: rgba(255, 255, 240, 0.94);
     ;
     border: 1.5px solid #4C5761;
     border-radius: 10px;
@@ -93,7 +84,7 @@ nav a:hover {
 .toimintakehote {
     border: 1.5px solid #FFFFF0;
     border-radius: 10px;
-    background-color: #8fbc8f98;
+    background-color: rgba(143, 188, 143, 0.6);
     font-family: "Verdana", sans-serif;
     color: #FFFFF0;
     padding: 10px 32px;
@@ -115,52 +106,44 @@ nav a:hover {
 }
 
 #slogan {
-    margin: 3% 10% 3% 10%
+    margin: 3% 10%;
+}
+
+.esittely {
+    font-family: "Verdana", sans-serif;
+    font-size: 20px;
+    color: #FFFFF0;
+    text-shadow: 0.5px 0.9px #4C5761;
+    padding-bottom: 10px;
+    margin: 0;
+
 }
 
 /*pääsivun sisällön asettelu*/
-.grid-teksti {
-    grid-area: g1;
-}
-
+.grid-teksti,
 .grid-kuva {
-    grid-area: g2;
+    margin: 0 auto;
+    padding-top: px;
 }
 
 figure {
     margin: auto;
-    margin-bottom: 0px;
     max-width: 300px;
 }
 
 figcaption {
     color: #FFFFF0;
     font-family: "Verdana", sans-serif;
-    padding: 6px;
     text-align: center;
+    padding: 6px;
     text-shadow: 0.5px 0.5px #4C5761;
 }
 
 .kuva {
     max-width: 400px;
-    vertical-align: middle;
     width: 100%;
     padding-top: 50px;
-    padding-right: 30px;
     margin: 0;
-}
-
-/* Yhteystiedot-taulukon tyyli */
-table {
-    text-align: center;
-    margin: 3% 10%;
-    padding: 20px;
-}
-
-th {
-    padding-right: 100px;
-    text-align: left;
-    text-shadow: 1.5px 1.5px #4C5761;
 }
 
 /* Yhteystiedot ja palvelut-sivun painikkeet */
@@ -191,7 +174,6 @@ th {
 table {
     text-align: left;
     padding-top: 20px;
-    padding-left: 0px;
     margin: 3% 10% 3% 10%;
 }
 
@@ -245,6 +227,10 @@ td {
 /* Alatunniste */
 footer {
     background-color: #FFFFF0 !important;
+    padding: 10px;
+}
+
+#footer p {
     color: #4C5761;
     padding: 10px;
     text-align: center;
@@ -284,7 +270,7 @@ footer {
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     h2 {
@@ -381,12 +367,6 @@ footer {
 
     }
 
-    #paasivu {
-        grid-template-areas:
-            'g1'
-            'g3'
-            'g2';
-    }
 
     footer {
         flex-direction: column;
@@ -399,7 +379,7 @@ footer {
     #etusivu {
         background-image: url(kuvat/paakuva-hieromapoyta1.jpg);
         background-size: cover;
-        height: 950px;
+        height: 880px;
     }
 
     nav a {
@@ -451,14 +431,6 @@ footer {
 
     .esittely {
         font-size: 25px;
-    }
-
-    #paasivu {
-        grid-template-areas:
-            'g1 g1 g3'
-            'g2 g2 g3';
-        margin-bottom: 100px;
-
     }
 
     /*karttojen asetus vierekkäin*/
