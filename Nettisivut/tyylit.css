@@ -281,17 +281,14 @@
          font-size: 18px;
      }
 
-     p {
-         text-shadow: 1px 1px #4c5761;
-     }
-
+     p,
      td {
-         text-shadow: 1px 1px #4c5761;
+         text-shadow: 0.4px 0.9px #4c5761;
      }
 
      .esittely {
          font-size: 18px;
-         text-shadow: 1px 1px #4C5761;
+         text-shadow: 0.4px 0.9px #4C5761;
      }
 
      .grid-teksti,
