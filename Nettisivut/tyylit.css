@@ -74,7 +74,7 @@ nav a {
 
 nav a:hover {
     color: #4C5761;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: #fffff057;
     border: 1.5px solid #4C5761;
     border-radius: 10px;
     text-shadow: none;
@@ -82,18 +82,18 @@ nav a:hover {
 
 #valittu {
     color: #4C5761;
-    background-color: #FFFFF0;
+    background-color: #fffff0f1;
     ;
-    border: 1px solid #4C5761;
+    border: 1.5px solid #4C5761;
     border-radius: 10px;
     text-shadow: none;
 }
 
 /* Toimintakehote */
 .toimintakehote {
-    border: 1.5px solid #FFFFF0;
+    border: 2px solid #FFFFF0;
     border-radius: 10px;
-    background-color: rgba(146, 188, 146, 0.6);
+    background-color: #8fbc8f71;
     font-family: "Verdana", sans-serif;
     color: #FFFFF0;
     padding: 10px 32px;
@@ -177,9 +177,9 @@ th {
 }
 
 .otayhteytta {
-    border: 1.5px solid #4C5761;
+    border: 2px solid #4C5761;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: #FFFFF0;
     font-family: "Verdana", sans-serif;
     color: #4C5761;
     padding: 10px 32px;
@@ -189,6 +189,7 @@ th {
     margin: 4px 2px;
     cursor: pointer;
     text-shadow: none;
+
 }
 
 /*yhteystietosivun taulukko*/
