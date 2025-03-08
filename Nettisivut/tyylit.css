@@ -196,19 +196,14 @@ th {
 table {
     text-align: left;
     padding-top: 20px;
-    padding-bottom: 10px;
     padding-left: 0px;
-    padding: 20px;
-    padding-bottom: 0px;
     margin: 3% 10% 3% 10%;
-
 }
 
 th {
     padding-right: 100px;
     text-align: left;
     text-shadow: 1.5px 1.5px #4c5761;
-    padding-bottom: 0px;
 }
 
 td {
