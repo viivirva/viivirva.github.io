@@ -128,7 +128,7 @@
 
  }
 
- /*Sivun sisällön asettelu*/
+ /*Sivunjen sisällön asettelu*/
  .grid-teksti,
  .grid-kuva {
      margin: 0 auto;
@@ -245,6 +245,7 @@
      max-width: 300px;
      margin: 3% 10% 3% 10%;
      padding: 20px;
+     padding-bottom: 0px;
  }
 
  #ajanvaraus {
@@ -258,11 +259,18 @@
  }
 
  /*kehotus*/
- #lopputeksti h2 {
+ #lopputeksti1 h2 {
+     text-align: center;
+     margin-bottom: 0;
+     padding: 20px;
+ }
+
+ #lopputeksti2 h2 {
      text-align: center;
      margin-bottom: 0;
      margin-top: 0;
  }
+
 
  /* Alatunniste */
  footer {
@@ -346,12 +354,17 @@
      h2,
      h3,
      table {
-         margin: 0;
+         margin-left: 0;
          padding-right: 20px;
+     }
+
+     #ajanvaraus {
+         padding-bottom: 0px;
      }
 
      #toimipisteet {
          margin: 3%;
+         margin-top: 0;
      }
 
      .kartta iframe {
@@ -362,6 +375,7 @@
 
      .kartat {
          margin: 4%;
+         padding-top: 0px;
      }
 
      footer {
