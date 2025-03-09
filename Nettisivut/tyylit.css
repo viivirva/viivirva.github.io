@@ -306,7 +306,7 @@
      }
 
      .sisalto {
-         margin: 3% 10%;
+         margin: 3%;
      }
 
      h1 {
@@ -340,7 +340,15 @@
          display: flex;
          flex-direction: column;
          align-items: flex-start;
+     }
 
+     p,
+     h2,
+     h3,
+     td,
+     table {
+         margin: 0;
+         padding-right: 20px;
      }
 
      .kartta iframe {
