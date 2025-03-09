@@ -262,13 +262,14 @@
  #lopputeksti1 h2 {
      text-align: center;
      margin-bottom: 0;
-     padding: 20px;
+     margin: 3% 10%;
  }
 
  #lopputeksti2 h2 {
      text-align: center;
      margin-bottom: 0;
      margin-top: 0;
+     margin: 3% 10%;
  }
 
 
