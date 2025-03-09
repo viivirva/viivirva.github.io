@@ -24,81 +24,89 @@
         </nav>
     </header>
 
-    <!-- Pääotsikko yhteystiedoista -->
-    <h1>Näin tavoitat meidät</h1>
+    <div id="palvelut">
+        <!-- Pääotsikko yhteystiedoista -->
+        <h1>Näin tavoitat meidät</h1>
 
-    <!-- Sivun esittelyteksti -->
-    <div class="sisalto">
-        <p class="esittely">Fysio Irva tarjoaa joustavaa palvelua kahdessa toimipisteessä ilman kiinteitä aukioloaikoja,
-            sopimuksen mukaan. Palvelemme osana Korjaavaa Otetta, ja Viivi tuo osaamisensa juuri sinun hyvinvointisi
-            tueksi. Ota rohkeasti yhteyttä ja varaa aikasi helposti yhteystietojemme kautta - juuri silloin, kun sinulle
-            parhaiten sopii.</p>
-    </div>
+        <!-- Sivun esittelyteksti -->
+        <div class="muutsivut-sisalto">
+            <div class="sisalto">
+                <p class="esittely">Fysio Irva tarjoaa joustavaa palvelua kahdessa toimipisteessä ilman kiinteitä
+                    aukioloaikoja,
+                    sopimuksen mukaan. Palvelemme osana Korjaavaa Otetta, ja Viivi tuo osaamisensa juuri sinun
+                    hyvinvointisi
+                    tueksi. Ota rohkeasti yhteyttä ja varaa aikasi helposti yhteystietojemme kautta - juuri silloin, kun
+                    sinulle
+                    parhaiten sopii.</p>
+            </div>
 
-    <!-- Yhteystiedot-taulukko -->
-    <section class="grid-container" id="sivut">
-        <div class="grid-teksti">
-            <h2>Yhteystiedot ja ajanvaraus</h2>
-            <p>Voit varata ajan soittamalla, lähettämällä sähköpostia tai Instagram-viestillä!</p>
-            <table id="ajanvaraus">
+            <!-- Yhteystiedot-taulukko -->
+            <section class="grid-container" id="sivut">
+                <div class="grid-teksti">
+                    <h2>Yhteystiedot ja ajanvaraus</h2>
+                    <p>Voit varata ajan soittamalla, lähettämällä sähköpostia tai Instagram-viestillä!</p>
+                    <table id="ajanvaraus">
 
-                <tr>
-                    <th>Instagram:</th>
-                </tr>
-                <tr>
-                    <td>@fysioirva</td>
-                </tr>
+                        <tr>
 
-                <tr>
-                    <th>Puhelin:</th>
-                </tr>
-                <tr>
-                    <td>+358 504958336</td>
-                </tr>
-                <tr>
-                    <th>Sähköposti:</th>
-                </tr>
-                <tr>
-                    <td>viivi@korjaavaote.fi</td>
-                </tr>
-            </table>
+                            <th>Instagram:</th>
+                        </tr>
+                        <tr>
+                            <td>@fysioirva</td>
+                        </tr>
+
+                        <tr>
+                            <th>Puhelin:</th>
+                        </tr>
+                        <tr>
+                            <td>+358 504958336</td>
+                        </tr>
+                        <tr>
+                            <th>Sähköposti:</th>
+                        </tr>
+                        <tr>
+                            <td>viivi@korjaavaote.fi</td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- Toimipisteet-osion otsikko -->
+                <h2>Toimipisteet</h2>
+                <p>Fysio Irva palvelee kahdessa toimipisteessä osana Korjaavaa Otetta:</p>
+            </section>
+
+            <!-- Kartat ja osoitetiedot toimipisteistä -->
+            <div class="kartat">
+                <div class="kartta">
+                    <h3>Korjaava Ote Lahela</h3>
+                    <p>Osoite: Lahelantie 280,<br> 04330 Lahela</p>
+                    <!-- Google Maps Lahelan toimipisteelle -->
+                    <iframe id=kartta-lahela
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1971.6657150358594!2d24.98250817706297!3d60.38468187514252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468dff2903a747fb%3A0xe59dd0d825679714!2sLahelantie%20280%2C%2004330%20Lahela!5e0!3m2!1sfi!2sfi!4v1741341989401!5m2!1sfi!2sfi"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+                <div class="kartta">
+                    <h3>Korjaava Ote Urkka</h3>
+                    <p>Osoite: Tekova Areena, Kuntoilijantie 2, 04300 Tuusula</p>
+                    <!-- Google Maps Urkan toimipisteelle -->
+                    <iframe id=kartta-urkka
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1971.2517024963688!2d25.031613177063388!3d60.39152047514605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468dff0062c5b6cd%3A0x7cab270b4e00e0f5!2sTekova%20Areena!5e0!3m2!1sfi!2sfi!4v1741342186800!5m2!1sfi!2sfi"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+
+            <div id="lopputeksti">
+                <h2>Ota yhteyttä ja varaa aika jo tänään!</h2>
+            </div>
+            <div id="painike">
+                <!-- toimintakehote -->
+                <a href="mailto:viivi@korjaavaote.fi" class="otayhteytta">LÄHETÄ VIESTI</a>
+            </div>
         </div>
-        <!-- Toimipisteet-osion otsikko -->
-        <h2>Toimipisteet</h2>
-        <p>Fysio Irva palvelee kahdessa toimipisteessä osana Korjaavaa Otetta:</p>
-    </section>
-
-    <!-- Kartat ja osoitetiedot toimipisteistä -->
-    <div class="kartat">
-        <div class="kartta">
-            <h3>Korjaava Ote Lahela</h3>
-            <p>Osoite: Lahelantie 280,<br> 04330 Lahela</p>
-            <!-- Google Maps Lahelan toimipisteelle -->
-            <iframe id=kartta-lahela
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1971.6657150358594!2d24.98250817706297!3d60.38468187514252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468dff2903a747fb%3A0xe59dd0d825679714!2sLahelantie%20280%2C%2004330%20Lahela!5e0!3m2!1sfi!2sfi!4v1741341989401!5m2!1sfi!2sfi"
-                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </div>
-
-        <div class="kartta">
-            <h3>Korjaava Ote Urkka</h3>
-            <p>Osoite: Tekova Areena, Kuntoilijantie 2,<br> 04300 Tuusula</p>
-            <!-- Google Maps Urkan toimipisteelle -->
-            <iframe id=kartta-urkka
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1971.2517024963688!2d25.031613177063388!3d60.39152047514605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468dff0062c5b6cd%3A0x7cab270b4e00e0f5!2sTekova%20Areena!5e0!3m2!1sfi!2sfi!4v1741342186800!5m2!1sfi!2sfi"
-                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </div>
-    </div>
-
-    <div id="lopputeksti">
-        <h2>Ota yhteyttä ja varaa aika jo tänään!</h2>
-    </div>
-    <div id="painike">
-        <!-- toimintakehote -->
-        <a href="mailto:viivi@korjaavaote.fi" class="otayhteytta">LÄHETÄ VIESTI</a>
     </div>
 
 
